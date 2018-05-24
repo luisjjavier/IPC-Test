@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterProd.ServerApplication", "InterProd.ServerApplication\InterProd.ServerApplication.csproj", "{7EAE3917-ADBD-4EA4-80B2-2089339101FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterProd.ClientApplication", "InterProd.ClientApplication\InterProd.ClientApplication.csproj", "{60EA8E1D-AC09-448D-A4ED-9809BA92227F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7EAE3917-ADBD-4EA4-80B2-2089339101FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EAE3917-ADBD-4EA4-80B2-2089339101FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EAE3917-ADBD-4EA4-80B2-2089339101FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60EA8E1D-AC09-448D-A4ED-9809BA92227F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60EA8E1D-AC09-448D-A4ED-9809BA92227F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60EA8E1D-AC09-448D-A4ED-9809BA92227F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60EA8E1D-AC09-448D-A4ED-9809BA92227F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
