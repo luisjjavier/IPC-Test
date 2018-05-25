@@ -13,14 +13,9 @@ namespace InterProd.ClientApplication
             client.Connect();
             StreamReader reader = new StreamReader(client);
             StreamWriter writer = new StreamWriter(client);
-            while (true)
-            {
-                string input = Console.ReadLine();
-                if (String.IsNullOrEmpty(input)) break;
-                writer.WriteLine(input);
-                writer.Flush();
-                Console.WriteLine(reader.ReadLine());
-            }
+
+            writer.WriteLine(args[0]);
+            writer.Flush();
             client.Close();
         }
 
